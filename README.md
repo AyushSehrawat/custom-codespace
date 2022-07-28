@@ -4,8 +4,10 @@ Custom container for github codespaces consists of installing some extensions li
 
 Also includes installation of mongodb.
 
+## Implementation 📒
+Just put the `.devcontainer` folder in the root of your project. From there when creating the codespace , github will show it in the drop-down.
 
-### Extensions Included
+### Extensions Included 🍪
   ```
     "ms-python.python",
     "wakatime.vscode-wakatime",
@@ -18,6 +20,9 @@ Also includes installation of mongodb.
     "ritwickdey.liveserver"
   ```
   
-#### Future Goals : 
+#### Future Goals 🌟 : 
 - [ ] Implementation to install latest mongodb version ( currently causes error and have to start and keep it open )
 - [ ] Maybe cookiecutter version of this?
+
+#### PRs?
+Help me in making this better 😊. Create a issue before creating a PR/ Contact me on discord Mini#5183
