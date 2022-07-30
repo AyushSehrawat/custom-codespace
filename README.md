@@ -1,15 +1,22 @@
 # Custom Devcontainer for codespaces ⚡
 
-Custom container for github codespaces consists of installing some extensions like python, themes, live server etc to save time. 
-
-Also includes installation of mongodb.
+`custom-codespace` consists of files you can use to decrease your workload. It consists of multiple files depending on usage by user and can be used to install extensions, run some scripts , install some database etc.
 
 ## Implementation 📒
 Just put the `.devcontainer` folder in the root of your project. From there when creating the codespace , github will show it in the drop-down.
-The build time is of 2-3 minutes. May vary sometimes ^_+ . 
-Once this is done, you will have the necesssary stuff installed with mongoDB as the database.
+Currently there are two files in the `.devcontainer` .
 
-To start the database you need to use command `sudo service mongodb start` and then you can use `mongosh` to create/delete the db and etc.
+   - devcontainer.json -> Can be used to install some extensions / open some ports / run some scripts after installation etc
+   - devcontainer-pyMongo.json -> Includes the above features with installation  of mongoDB database
+       - Includes `pyMongo.dockerfile` needed to install mongoDB.
+       
+       To use this file rename it to `devcontainer.json`
+       
+       The build time is of 2-3 minutes. May vary sometimes. 
+       
+       Once this is done, you will have the necesssary stuff installed with mongoDB as the database.
+
+       To start the database you need to use command `sudo service mongodb start` and then you can use `mongosh` to use commands for mongoDB.
 
 ### Extensions Included 🍪
   ```
@@ -25,6 +32,7 @@ To start the database you need to use command `sudo service mongodb start` and t
   
 #### Future Goals 🌟 : 
 - [x] Implementation to install latest mongodb version ( currently causes error and have to start and keep it open )
+- [x] Separate some stuff depending on usage
 - [ ] Maybe cookiecutter version of this?
 - [ ] Make the same for different database
 
