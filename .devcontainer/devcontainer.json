@@ -15,7 +15,6 @@
     // Install needed extensions
     "extensions": [
         "ms-python.python",
-        "wakatime.vscode-wakatime",
         "akamud.vscode-theme-onedark",
         "github.copilot",
         "codezombiech.gitignore",
