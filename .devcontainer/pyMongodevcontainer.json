@@ -1,7 +1,7 @@
 {
     //CUSTOM CONTAINER SECTION
     "name": "Codespaces",
-    "dockerFile": "customImage.dockerfile",
+    "dockerFile": "pyMongo.dockerfile",
     //image: "repo/image:tag"
     "remoteUser": "codespace",
     "workspaceMount": "source=${localWorkspaceFolder},target=/home/codespace/workspace,type=bind,consistency=cached",
