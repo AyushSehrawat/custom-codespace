@@ -6,6 +6,10 @@ Also includes installation of mongodb.
 
 ## Implementation 📒
 Just put the `.devcontainer` folder in the root of your project. From there when creating the codespace , github will show it in the drop-down.
+The build time is of 2-3 minutes. May vary sometimes ^_+ . 
+Once this is done, you will have the necesssary stuff installed with mongoDB as the database.
+
+To start the database you need to use command `sudo service mongodb start` and then you can use `mongosh` to create/delete the db and etc.
 
 ### Extensions Included 🍪
   ```
@@ -21,7 +25,7 @@ Just put the `.devcontainer` folder in the root of your project. From there when
   ```
   
 #### Future Goals 🌟 : 
-- [ ] Implementation to install latest mongodb version ( currently causes error and have to start and keep it open )
+- [x] Implementation to install latest mongodb version ( currently causes error and have to start and keep it open )
 - [ ] Maybe cookiecutter version of this?
 
 #### PRs?
