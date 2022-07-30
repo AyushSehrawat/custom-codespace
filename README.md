@@ -26,6 +26,12 @@ To start the database you need to use command `sudo service mongodb start` and t
 #### Future Goals 🌟 : 
 - [x] Implementation to install latest mongodb version ( currently causes error and have to start and keep it open )
 - [ ] Maybe cookiecutter version of this?
+- [ ] Make the same for different database
 
 #### PRs?
 Help me in making this better 😊. Create a issue before creating a PR/ Contact me on discord Mini#5183
+
+#### Credits
+- [Microsoft Docs On Installing MongoDB in WSL](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb)
+- [Official MongoDB Installation Docs](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
+- [This Dev.to article](https://dev.to/n3wt0n/make-it-perfect-how-to-customize-github-codespaces-2ma4)
