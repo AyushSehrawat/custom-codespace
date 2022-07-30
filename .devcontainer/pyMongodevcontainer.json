@@ -6,12 +6,14 @@
     "remoteUser": "codespace",
     "workspaceMount": "source=${localWorkspaceFolder},target=/home/codespace/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/home/codespace/workspace",
-    "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
-    
+    "runArgs": [
+        "--cap-add=SYS_PTRACE",
+        "--security-opt",
+        "seccomp=unconfined"
+    ],
     // Open port 8000 by default
     // "appPort": [5000,8000,8080],
-          //"forwardPorts": [1, 2, 3],
-
+    //"forwardPorts": [1, 2, 3],
     // Install needed extensions
     "extensions": [
         "ms-python.python",
@@ -23,4 +25,4 @@
         "ms-toolsai.jupyter-renderers",
         "ritwickdey.liveserver"
     ]
-  }
+}

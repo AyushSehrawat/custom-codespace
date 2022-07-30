@@ -1,0 +1,25 @@
+{
+    // Open port 3000 by default
+    // "appPort": 3000
+    //"forwardPorts": [1, 2, 3],
+
+    // Install needed extensions
+    "extensions": [
+        "ms-python.python",
+        "akamud.vscode-theme-onedark",
+        "github.copilot",
+        "codezombiech.gitignore",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "ritwickdey.liveserver"
+    ]
+  
+    // Adds VS Code settings.json values into the environment.
+    // "settings": {
+    //   "peacock.remoteColor": "#0078D7"
+    // },
+  
+    // Run Bash script in .devcontainer directory
+    // "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+  }
