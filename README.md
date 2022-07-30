@@ -14,7 +14,6 @@ To start the database you need to use command `sudo service mongodb start` and t
 ### Extensions Included 🍪
   ```
     "ms-python.python",
-    "wakatime.vscode-wakatime",
     "akamud.vscode-theme-onedark",
     "github.copilot",
     "codezombiech.gitignore",
