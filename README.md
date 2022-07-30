@@ -39,7 +39,7 @@ Currently there are two files in the `.devcontainer` .
 #### PRs?
 Help me in making this better 😊. Create a issue before creating a PR/ Contact me on discord Mini#5183
 
-#### Credits
+#### Credits ❤️
 - [Microsoft Docs On Installing MongoDB in WSL](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb)
 - [Official MongoDB Installation Docs](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
 - [This Dev.to article](https://dev.to/n3wt0n/make-it-perfect-how-to-customize-github-codespaces-2ma4)
