@@ -10,4 +10,5 @@ RUN sudo apt update && \
     mongod --version && \
     sudo mkdir -p ~/data/db && \
     sudo curl https://raw.githubusercontent.com/mongodb/mongo/master/debian/init.d | sudo tee /etc/init.d/mongodb >/dev/null && \
-    sudo chmod +x /etc/init.d/mongodb
+    sudo chmod +x /etc/init.d/mongodb && \
+    sudo service mongodb start
