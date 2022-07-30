@@ -6,8 +6,8 @@
 Just put the `.devcontainer` folder in the root of your project. From there when creating the codespace , github will show it in the drop-down.
 Currently there are two files in the `.devcontainer` .
 
-   - devcontainer.json -> Can be used to install some extensions / open some ports / run some scripts after installation etc
-   - devcontainer-pyMongo.json -> Includes the above features with installation  of mongoDB database
+   - [devcontainer.json](.devcontainer/devcontainer.json) -> Can be used to install some extensions / open some ports / run some scripts after installation etc
+   - [devcontainer-pyMongo.json](.devcontainer/devcontainer-pyMongo.json) -> Includes the above features with installation  of mongoDB database
        - Includes `pyMongo.dockerfile` needed to install mongoDB.
        
        To use this file rename it to `devcontainer.json`
